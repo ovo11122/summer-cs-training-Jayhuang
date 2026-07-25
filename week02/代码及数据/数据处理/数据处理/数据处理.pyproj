@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a955859c-013c-46cb-b62d-d89b5953209e</ProjectGuid>
+    <ProjectGuid>064eba1e-8587-4b52-9273-abfd24eef803</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>排名.py</StartupFile>
+    <StartupFile>数据处理.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>排名</Name>
-    <RootNamespace>排名</RootNamespace>
+    <Name>数据处理</Name>
+    <RootNamespace>数据处理</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="排名.py" />
+    <Compile Include="数据处理.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
