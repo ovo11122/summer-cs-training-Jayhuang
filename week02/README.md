@@ -1,10 +1,12 @@
 # Week02 学生成绩数据处理与排序算法比较
+
 ## 项目简介
 
 本项目使用对学生成绩CSV数据进行读取、清洗、统计、排序。
 项目完成数据处理,使用集合和字典完成去重、分类和索引查找，并自行实现冒泡排序、选择排序、插入排序和归并排序。
 
 ## 主要功能
+
 - 检查字段类型、缺失值和重复记录
 - 使用集合按照学号进行数据去重
 - 使用字典统计各班人数并按班级分类学生
@@ -20,3 +22,29 @@
 - 比较不同数据规模下各排序算法的运行时间
 - 绘制并保存统计图
 - 将处理结果保存为新的CSV文件
+
+## 运行方法
+
+先安装所需的第三方库：
+
+```powershell
+pip install pandas matplotlib
+```
+
+进入 `week02` 文件夹后运行：
+
+```powershell
+python .\week02_analysis.py
+```
+
+程序会读取 `week02_students.csv`，并在当前文件夹中生成清洗结果、排序结果、班级汇总和三张统计图。
+
+## 主要输出
+
+- `clean_students.csv`：清洗后的学生数据
+- `students_up.csv`：按照平均分升序排列
+- `students_down.csv`：按照平均分降序排列
+- `class_summary.csv`：各班成绩汇总
+- `class_average.png`：班级平均成绩柱状图
+- `average_distribution.png`：学生平均分分布图
+- `sorting_time.png`：不同排序算法运行时间对比图

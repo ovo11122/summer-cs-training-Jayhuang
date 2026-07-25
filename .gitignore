@@ -1,2 +1,6 @@
 .vs/
+__pycache__/
 *.pyc
+*.pyproj
+*.sln
+*.slnx

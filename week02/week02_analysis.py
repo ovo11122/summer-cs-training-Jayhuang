@@ -66,7 +66,7 @@ df['average'] = df[score_columns].mean(axis = 1)
 
 
 #筛选85分以上的
-Hcondition = df['average'] > 85
+Hcondition = df['average'] >= 85
 Hstudents = df[Hcondition]
 print('平均分85以上的：')
 print(Hstudents)
